@@ -1,7 +1,7 @@
-import { Route } from "@angular/router";
+import { Routes } from "@angular/router";
 import { BibliotecarioComponent } from "./bibliotecario.component";
 
-export const BibliotecarioRoutes: Route[] = [
+export const BibliotecarioRoutes: Routes = [
     {
         path: '',
         component: BibliotecarioComponent

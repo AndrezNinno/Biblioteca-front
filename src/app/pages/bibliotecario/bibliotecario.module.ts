@@ -5,8 +5,6 @@ import { RouterModule } from '@angular/router';
 import { BibliotecarioRoutes } from './bibliotecario.routes';
 import { TranslateModule } from '@ngx-translate/core';
 
-
-
 @NgModule({
   declarations: [BibliotecarioComponent],
   exports: [BibliotecarioComponent],
